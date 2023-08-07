@@ -1,3 +1,5 @@
+https://www.liquidweb.com/kb/how-to-install-dependencies-in-ubuntu/
+
 # Update list of available packages
 apt update
 
@@ -12,3 +14,15 @@ apt install --only-upgrade packagename
 apt install --only-upgrade packages-*
 
 
+# Install package
+apt install packagename
+
+# Remove package
+apt remove packagename
+
+
+# Search installed packages
+apt-cache packagename
+
+# List details of installed package
+apt-cache showpkg packagename
