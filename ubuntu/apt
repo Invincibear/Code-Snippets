@@ -1,0 +1,14 @@
+Update list of available packages
+apt update
+
+List upgradable packages
+apt list --upgradable
+
+Upgrade all upgradable packages
+apt upgrade
+
+Upgrade specific package(s)
+apt install --only-upgrade packagename
+apt install --only-upgrade packages-*
+
+
